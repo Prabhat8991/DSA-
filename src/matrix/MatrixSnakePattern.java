@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class MatrixSnakePattern {
     public static void main(String[] args) {
        int [][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
-       SnakePattern(matrix);
+       snakePattern(matrix);
     }
 
-    private static void SnakePattern(int [][] matrix) {
+    private static ArrayList<Integer> snakePattern(int [][] matrix) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         for (int i = 0; i < matrix.length; i++) {
             if (i%2 == 0) {
@@ -21,5 +21,6 @@ public class MatrixSnakePattern {
                 }
             }
         }
+        return arrayList;
     }
 }
