@@ -19,7 +19,7 @@ public class Node {
 
     public static void printLinkedList(Node linkedList) {
 
-        if (linkedList.next == null) {
+        if (linkedList == null) {
             return;
         }
         System.out.println(linkedList.value);
