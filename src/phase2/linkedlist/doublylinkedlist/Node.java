@@ -2,11 +2,11 @@ package phase2.linkedlist.doublylinkedlist;
 
 public class Node {
 
-    Node prev;
-    Node next;
-    int value;
+    public Node prev;
+    public Node next;
+    public int value;
 
-    Node (int value) {
+    public Node(int value) {
         this.value = value;
         prev = null;
         next = null;

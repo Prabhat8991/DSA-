@@ -1,10 +1,10 @@
 package phase2.linkedlist;
 
 public class Node {
-    int value;
-    Node next;
+    public int value;
+    public Node next;
 
-    Node (int x) {
+    public Node(int x) {
         value = x;
         next = null;
     }
