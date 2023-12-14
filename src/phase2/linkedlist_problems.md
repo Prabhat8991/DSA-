@@ -10,5 +10,5 @@ Tasks to complete
 1. Insert data item in Linked list in sorted manner [Completed].
 2. Middle node of linkedlist [Completed]
 3. Nth Node from end of the linked list [Completed]
-4. Reverse the linked list with constant space used.
-5. Think for recursive approach for problem 4
+4. Reverse the linked list with constant space used.[Completed]
+5. Think for recursive approach for problem 4 [Completed]
