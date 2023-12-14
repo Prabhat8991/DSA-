@@ -12,10 +12,6 @@ public class MiddleNodeOfLinkedList {
         node2.next = node3;
         Node node4 = new Node(50);
         node3.next = node4;
-        Node node5 = new Node(60);
-        node4.next = node5;
-        Node node6 = new Node(70);
-        node5.next = node6;
 
         System.out.println(findMiddleNodeOfLinkedList(head).value);
 
@@ -25,14 +21,9 @@ public class MiddleNodeOfLinkedList {
        Node fastNode = head ;
        Node slowNode = head;
 
-       int fastCounter = 0;
-
-       while (fastNode != null) {
-           fastNode = fastNode.next;
-           fastCounter+=1;
-
-           if (fastCounter % 2 == 0)
-               slowNode = slowNode.next;
+       while (fastNode != null && fastNode.next != null) {
+           fastNode = fastNode.next.next;
+           slowNode = slowNode.next;
        }
        return slowNode;
     }
