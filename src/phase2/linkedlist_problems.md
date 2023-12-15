@@ -12,3 +12,8 @@ Tasks to complete
 3. Nth Node from end of the linked list [Completed]
 4. Reverse the linked list with constant space used.[Completed]
 5. Think for recursive approach for problem 4 [Completed]
+
+### 15-12-2023
+Tasks to complete
+
+1. Remove duplicate from sorted Linked list [Completed].
