@@ -17,3 +17,5 @@ Tasks to complete
 Tasks to complete
 
 1. Remove duplicate from sorted Linked list [Completed].
+2. Reverse a linked list in group of size k.
+3. Detect loop in linked list.
