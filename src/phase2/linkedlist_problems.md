@@ -19,3 +19,8 @@ Tasks to complete
 1. Remove duplicate from sorted Linked list [Completed].
 2. Reverse a linked list in group of size k.
 3. Detect loop in linked list.
+     Method1. N square solution.
+     Method2. Change definition of Linked list.
+     Method3. Change references of Nodes and point to dummy node
+     Method4. Use hashset 
+
