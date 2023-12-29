@@ -12,3 +12,15 @@ Tasks to complete
 3. Nth Node from end of the linked list [Completed]
 4. Reverse the linked list with constant space used.[Completed]
 5. Think for recursive approach for problem 4 [Completed]
+
+### 15-12-2023
+Tasks to complete
+
+1. Remove duplicate from sorted Linked list [Completed].
+2. Reverse a linked list in group of size k.
+3. Detect loop in linked list.
+     Method1. N square solution.
+     Method2. Change definition of Linked list.
+     Method3. Change references of Nodes and point to dummy node
+     Method4. Use hashset 
+
