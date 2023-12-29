@@ -17,10 +17,13 @@ Tasks to complete
 Tasks to complete
 
 1. Remove duplicate from sorted Linked list [Completed].
-2. Reverse a linked list in group of size k.
+2. Reverse a linked list in group of size k [Completed | Tricky].
 3. Detect loop in linked list.
      Method1. N square solution.
      Method2. Change definition of Linked list.
-     Method3. Change references of Nodes and point to dummy node
-     Method4. Use hashset 
+     Method3. Change references of Nodes and point to dummy node [Completed | Tricky]
+     Method4. Use hashset [Completed]
 
+### 29-12-2023
+1. Floyd cycle detection of loop in linked list. [Important|Tricky]
+2. 
