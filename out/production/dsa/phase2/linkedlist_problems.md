@@ -25,5 +25,9 @@ Tasks to complete
      Method4. Use hashset [Completed]
 
 ### 29-12-2023
-1. Floyd cycle detection of loop in linked list. [Important|Tricky]
-2. 
+1. Floyd cycle detection of loop in linked list. [Important|Tricky] [Completed]
+2. Detect and remove loop in linked List. [Important|Tricky|Floyd detection] 
+
+### 2-02-2024
+1. Delete a given node without reference to head. Also assume node is not the last node. [Tricky]
+2. Segregate even and odd nodes in Linked list. 
