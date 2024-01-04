@@ -33,6 +33,9 @@ Tasks to complete
 2. Segregate even and odd nodes in Linked list. [Important][Hint: Use 4 refs][Completed]
 
 ### 3-02-2024
-1. Find intersection of two linked list.[Important][Hint: Use simple maths]
+1. Find intersection of two linked list.[Important][Hint: Use simple maths][completed]
 2. Pairwise swap nodes of linked list. [Important] 
-3. 
+3. Clone a linked list with random pointer. [Important]
+     Method1. Using Map.
+     Method2. Using constant space
+4. LRU cache design. [Very Important][Hint: Use Map and Doubly LinkedList]
