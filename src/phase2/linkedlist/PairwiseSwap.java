@@ -21,7 +21,24 @@ public class PairwiseSwap {
         printLinkedList(pairWiseSwap(head));
     }
 
-    private static Node pairWiseSwap(Node head) {
-       //TODO: Need to do again later
+    public static Node pairWiseSwap(Node head) {
+        Node currentNode = head.next;
+        Node prevNode = head;
+        head = currentNode;
+        head.next = prevNode;
+        currentNode = prevNode.next.next;
+        while (currentNode!= null && currentNode.next != null) {
+            prevNode = prevNode.next;
+            prevNode.next = currentNode.next;
+            currentNode.next = prevNode;
+            currentNode = prevNode.next.next;
+        }
+
+//        if (currentNode != null) {
+//            prevNode.next = currentNode;
+//        }
+        return head;
     }
+
+
 }
