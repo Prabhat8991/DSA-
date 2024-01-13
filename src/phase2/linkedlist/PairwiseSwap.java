@@ -22,21 +22,19 @@ public class PairwiseSwap {
     }
 
     public static Node pairWiseSwap(Node head) {
-        Node currentNode = head.next;
-        Node prevNode = head;
-        head = currentNode;
-        head.next = prevNode;
-        currentNode = prevNode.next.next;
-        while (currentNode!= null && currentNode.next != null) {
-            prevNode = prevNode.next;
-            prevNode.next = currentNode.next;
-            currentNode.next = prevNode;
-            currentNode = prevNode.next.next;
-        }
+        Node currentNode = head.next.next; //currentNode = 30
+        head.next.next = head; // 20 -> 10
+        head = head.next; //head == 20
+        Node previous = head.next; // prev = 10
 
-//        if (currentNode != null) {
-//            prevNode.next = currentNode;
-//        }
+        while (currentNode!=null && currentNode.next != null) {
+            previous.next = currentNode.next; //10 -> 40
+            Node temp = currentNode.next.next; //temp = 50
+            currentNode.next.next = currentNode; //40->30
+            previous = currentNode; // prev = 30
+            currentNode = temp;
+        }
+        previous.next = currentNode; // for handling currentNode == null and currentNode.next == null
         return head;
     }
 

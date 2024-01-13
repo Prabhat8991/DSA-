@@ -34,7 +34,7 @@ Tasks to complete
 
 ### 3-02-2024
 1. Find intersection of two linked list.[Important][Hint: Use simple maths][completed]
-2. Pairwise swap nodes of linked list. [Important] [To be tried again later]
+2. Pairwise swap nodes of linked list. [Important] [T1][T2][TBD]
 3. Clone a linked list with random pointer. [Important]
      Method1. Using Map.
      Method2. Using constant space. [Hint place new nodes in between old ones]
