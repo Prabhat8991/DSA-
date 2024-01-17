@@ -37,5 +37,5 @@ Tasks to complete
 2. Pairwise swap nodes of linked list. [Important] [T1][T2][Completed]
 3. Clone a linked list with random pointer. [Important]
      Method1. Using Map.
-     Method2. Using constant space. [Hint place new nodes in between old ones]
+     Method2. Using constant space. [Hint place new nodes in between old ones][Done]
 4. LRU cache design. [Very Important][Hint: Use Map and Doubly LinkedList]
