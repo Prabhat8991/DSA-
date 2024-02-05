@@ -15,7 +15,7 @@ public class ReverseALinkedListInGroupOfK {
         Node node4 = new Node(50);
         node3.next = node4;
 
-        printLinkedList(reverseALinkedListInGroupOfK(head, 3));
+        printLinkedList(reverseALinkedListInGroupOfK(head, 2));
     }
 
     private static Node reverseALinkedListInGroupOfK(Node head, int k) {
@@ -32,7 +32,7 @@ public class ReverseALinkedListInGroupOfK {
             count+=1;
         }
         if(currentNode != null) {
-            Node restHead = reverseALinkedListInGroupOfK(currentNode, k);
+            Node restHead = reverseALinkedListInGroupOfK(currentNode, k); //currentNode = 3 k = 2
             head.next = restHead;
         }
         return prevNode;
