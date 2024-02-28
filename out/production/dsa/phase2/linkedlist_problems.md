@@ -1,6 +1,6 @@
 ### 05-12-2023
 Tasks to complete
-1. Insert at beginning of circular Linked list in 0(1) [Completed]
+1. Insert at beginning of circular Linked list in 0(1) [Completed] [Hint: Override value itself]
 2. Delete head of circular linked list in 0(1) [Completed]
 3. Delete Kth of circular linked list in 0(n) [Completed]
 
