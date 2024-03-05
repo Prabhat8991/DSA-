@@ -1,4 +1,6 @@
 ### 05-12-2023
+[Important concept: When two references are equalized then that means both references refer to same object, now if second ref is changed then also first
+reference will point to old object. Remembering this concept is important for LinkedList problems]
 Tasks to complete
 1. Insert at beginning of circular Linked list in 0(1) [Completed] [Hint: Override value itself]
 2. Delete head of circular linked list in 0(1) [Completed]
