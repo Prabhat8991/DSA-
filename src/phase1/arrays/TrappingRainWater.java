@@ -2,7 +2,7 @@ package phase1.arrays;
 
 public class TrappingRainWater {
     public static void main(String[] args) {
-      int [] arr = {3,0,1,2,5};
+      int [] arr = {1,5,3,6,8,10,3,6};
       System.out.print(trapRainWater(arr));
     }
 
