@@ -10,3 +10,4 @@
 7. Maximum Subarray sum. [Hint: Kadane's algo]
 8. Minimum group flips required to make array same in a binary array. [1,1,0,0,0,1,1,0,0,1] [Hint: Always flip second group]
 9. Stock buy sell with max profit but only one buy and sell allowed. [Hint: Sliding window]
+10. -> Insert intervals 
