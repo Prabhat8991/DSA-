@@ -1,7 +1,7 @@
 package phase1.arrays
 
 fun main() {
-   print(trap(intArrayOf(5,1,3,6,4,8)))
+   print(trap(intArrayOf(1,8,6,2,5,4,8,3,7)))
 }
 
 fun trap(height: IntArray): Int {
@@ -41,7 +41,7 @@ fun trap(height: IntArray): Int {
             leftMaxArray[i]
         }
         if (height[i] < min) {
-            sum+= min - height[i]
+            sum+= min
         }
     }
     return sum

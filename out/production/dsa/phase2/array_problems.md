@@ -12,3 +12,4 @@
 9. Stock buy sell with max profit but only one buy and sell allowed. [Hint: Sliding window]
 10. Insert intervals [Hint: Sort w.r.t first values with newInterval and then find overlaps and fix using two pointer]
 11. 3 Sum problem [Hint: use 3 pointer approach. Two pointers at start and one pointer from end]
+12. Combination sum [Hint: Use recursion and backtracking]
