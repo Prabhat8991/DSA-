@@ -13,3 +13,4 @@
 10. Insert intervals [Hint: Sort w.r.t first values with newInterval and then find overlaps and fix using two pointer]
 11. 3 Sum problem [Hint: use 3 pointer approach. Two pointers at start and one pointer from end]
 12. Combination sum [Hint: Use recursion and backtracking]
+13. Max Area [Hint: Use two pointer left and right and find area]
