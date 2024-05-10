@@ -44,3 +44,4 @@ Tasks to complete
 
 ### Grind75
 1. Merge two sorted linked list.
+2. LRU cache. [Hint: use Doubly linkdlist and hashmap]
