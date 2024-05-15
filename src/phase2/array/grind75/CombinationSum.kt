@@ -1,9 +1,9 @@
 package phase2.array.grind75
 
 fun main() {
-    var inputArray = intArrayOf(2,3,6,7)
-    val target = 7
-    combinationSum(inputArray, 7).forEach {
+    var inputArray = intArrayOf(10,1,2,7,6,1,5)
+    val target = 8
+    combinationSum(inputArray, 8).forEach {
         println(it)
     }
 }

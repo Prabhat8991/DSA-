@@ -12,7 +12,7 @@
 9. Stock buy sell with max profit but only one buy and sell allowed. [Hint: Sliding window]
 10. Insert intervals [Hint: Sort w.r.t first values with newInterval and then find overlaps and fix using two pointer]
 11. 3 Sum problem [Hint: use 3 pointer approach. Two pointers at start and one pointer from end]
-12. Combination sum [Hint: Use recursion and backtracking]
+12. Combination sum [Could not do it in first and second attempt][Hint: Use recursion and backtracking]
 13. Max Area [Hint: Use two pointer left and right and find area]
 14. 3 Sum closest. [Hint: Similar to 3 sum with sum extra value handling logic]
 15. Single number in an array where except one all other numbers are in pair. [Hint: Use XOR]

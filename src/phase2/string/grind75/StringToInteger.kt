@@ -1,6 +1,5 @@
 package phase2.string.grind75
 
-import phase1.recursion.powerOf
 import java.math.BigInteger
 
 fun main() {
