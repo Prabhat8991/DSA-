@@ -3,7 +3,12 @@ package phase2.stack.leetcode.hard
 import java.util.Stack
 
 fun main() {
-    println(largestRectangleArea(intArrayOf(2,1,5,6,2,3)))
+    println(largestRectangleArea(intArrayOf(1,4,3,1)))
+
+    // 1 4 3 1
+//   --> stack - 1  i = 0
+    //stack - 0,1   i = 1
+    //stack - 0,1 1-pop i = 2 area = 4*2 = 8
 }
 
 fun largestRectangleArea(heights: IntArray): Int {
