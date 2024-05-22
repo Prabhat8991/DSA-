@@ -12,6 +12,9 @@ fun main() {
 }
 
 fun largestRectangleArea(heights: IntArray): Int {
+    //current bar heights[i] is right boundary
+    //Popped bar is considered for height of the rect
+    //Top of stack after popping is considered for left boundary
     var result =  Int.MIN_VALUE
     var stack = Stack<Int>()
     for (i in heights.indices) {
