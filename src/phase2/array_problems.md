@@ -13,7 +13,7 @@
 10. Insert intervals [Hint: Sort w.r.t first values with newInterval and then find overlaps and fix using two pointer] [Problem: https://leetcode.com/problems/insert-interval/description/]
 11. 3 Sum problem [Hint: use 3 pointer approach. Two pointers at start and one pointer from end] [Problem: https://leetcode.com/problems/3sum/description/]
 12. Combination sum [Could not do it in multiple attempts][Hint: Use recursion and backtracking, think about subtracting from target][Problem: https://leetcode.com/problems/combination-sum/description/]
-13. Max Area [Hint: Use two pointer left and right and find area]
+13. Max Area [Hint: Use two pointer left and right and find area][Problem: https://leetcode.com/problems/container-with-most-water/description/]
 14. 3 Sum closest. [Hint: Similar to 3 sum with sum extra value handling logic]
 15. Single number in an array where except one all other numbers are in pair. [Hint: Use XOR]
 16. Combination sum 2 [Could not do it in first and second attempt][Hint: Use recursion and backtracking]
