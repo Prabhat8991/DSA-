@@ -1,4 +1,4 @@
-package phase2.tree;
+package phase3.tree;
 
 public class PreOrderTraversal {
 
