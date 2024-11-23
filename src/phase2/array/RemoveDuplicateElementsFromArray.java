@@ -17,15 +17,19 @@ public class RemoveDuplicateElementsFromArray {
     }
 
     public static int removeDuplicateElements(int[] arr) {
-        int pt1 = 1;
-        int pt2 = 1;
-        for (int i = 0; i < arr.length-1; i++) {
-            if (arr[pt1 - 1] != arr[pt2]) {
-                arr[pt1] = arr[pt2];
-                pt1++;
-            }
-            pt2++;
+        if (arr == null || arr.length == 0) {
+            return 0;  // handle empty or null array
         }
+
+        int pt1 = 1; // Pointer for placing unique elements
+        for (int pt2 = 1; pt2 < arr.length; pt2++) {
+            // If the current element is different from the last unique element
+            if (arr[pt2] != arr[pt1 - 1]) {
+                arr[pt1] = arr[pt2]; // Place the unique element in the correct position
+                pt1++; // Move the pointer for unique elements
+            }
+        }
+
         return pt1;
     }
 }
