@@ -9,3 +9,4 @@
 7. Permutation of Int array. [Hint: Need recursion within loop]
 8. Letter combination of phone number. [Hint: Its straightforward, recursion within loop and think of recursive call as a nested loop getting executed, also keep in mind of backtracking]
 9. Merge sort.
+10. Quick Sort. [Hint: Pivot, Partition and swap recursive]
