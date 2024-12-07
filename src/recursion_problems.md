@@ -13,3 +13,4 @@
 11. Combination Sum I - [Hint: Take/Not take approach with backtracking, keep in mind that new ref of collection to create while adding in solution collection]
 12. Combination Sum II - [Hint: For loop pattern of recursion]
 13. Subset - II - [https://leetcode.com/problems/subsets-ii/description/][Hint: For loop pattern like above, for loop itself is base case here]
+14. N-Queen. [Leetcode: https://leetcode.com/problems/n-queens/description/]
