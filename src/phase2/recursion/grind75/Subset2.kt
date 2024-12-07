@@ -1,26 +1,25 @@
 package phase2.recursion.grind75
 
 fun main() {
-  val arr = intArrayOf(1,1,1,2,2)
-  arr.sort()
-  var res = arrayListOf<ArrayList<Int>>()
-  var target = 4
-  var temp = arrayListOf<Int>()
-    combinationSumTwo(arr, res, target, temp, 0)
-    res.forEach { println(it) }
+  val arr = intArrayOf(1,2,2)
+  subsetsWithDup(arr)
 }
 
-fun combinationSumTwo(arr: IntArray, res: ArrayList<ArrayList<Int>>, target: Int, temp: ArrayList<Int>, index: Int) {
-    if (target == 0) {
-        res.add(ArrayList(temp))
-        return
-    }
+fun subsetsWithDup(nums: IntArray): List<List<Int>> {
+    var res = arrayListOf<ArrayList<Int>>()
+    var temp = arrayListOf<Int>()
+    subsetTwo(nums, res, temp, 0)
+    res.forEach { print(it) }
+    return res
+}
+
+fun subsetTwo(arr: IntArray, res: ArrayList<ArrayList<Int>>, temp: ArrayList<Int>, index: Int) {
 
     for (i in index until arr.size) {
-        if (i > index && arr[i] == arr[i-1]) continue //skipping same element at same position
-        if (arr[i] > target) break
+        if (i > index && arr[i] == arr[i-1]) continue //skipping same element at same position to avoid duplicate combinations
         temp.add(arr[i])
-        combinationSumTwo(arr, res, target - arr[i], temp, i + 1) // increasing index so to avoid duplicate combinations
+        res.add(ArrayList(temp))
+        subsetTwo(arr, res, temp, i + 1)
         temp.removeAt(temp.size - 1)
     }
 }
