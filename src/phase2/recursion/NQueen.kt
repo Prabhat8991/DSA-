@@ -63,5 +63,3 @@ fun canPlaceQueen(
             !diagonalTopLeft[row - col + n - 1] &&
             !diagonalBottomLeft[row + col]
 }
-
-}
