@@ -33,6 +33,7 @@ fun main() {
     println(frogJump(intArrayOf(10, 20, 30, 10), 3))
     println(frogJumpDp(intArrayOf(10, 20, 30, 10), IntArray(4){-1}, 3))
     println(frogJumpTabulation(intArrayOf(10, 20, 30, 10), IntArray(4){-1}, 3))
+    println(frogJumpTabulationWithBetterSpaceComplexity(intArrayOf(10, 20, 30, 10), 3))
 }
 
 //Recursive
@@ -49,7 +50,6 @@ fun frogJump(heights: IntArray, n: Int): Int {
 }
 
 //Dynamic Programming
-
 fun frogJumpDp(heights: IntArray, dpArray: IntArray, n: Int): Int {
     if (n == 0) {
         return 0
@@ -65,7 +65,6 @@ fun frogJumpDp(heights: IntArray, dpArray: IntArray, n: Int): Int {
 }
 
 //Tabulation
-
 fun frogJumpTabulation(heights: IntArray, dpArray: IntArray, n: Int): Int {
    var left = Int.MAX_VALUE
    var right = Int.MAX_VALUE
@@ -78,4 +77,22 @@ fun frogJumpTabulation(heights: IntArray, dpArray: IntArray, n: Int): Int {
        dpArray[i] = min(left, right)
    }
    return dpArray[n]
+}
+
+//Reducing Space complexity
+fun frogJumpTabulationWithBetterSpaceComplexity(heights: IntArray, n: Int): Int {
+    var left = Int.MAX_VALUE
+    var right = Int.MAX_VALUE
+    var previous = 0
+    var previousMinusOne = 0
+    for (i in 1 until n+1) {
+        left = previous + abs(heights[i] - heights[i-1])
+        if ( i > 1) {
+            right = previousMinusOne + abs(heights[i] - heights[i - 2])
+        }
+        val curr = min(left, right)
+        previousMinusOne = previous
+        previous = curr
+    }
+    return previous
 }
