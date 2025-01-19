@@ -3,8 +3,8 @@ package phase2.array;
 public class ShiftZeroes {
 
     public static void main(String[] args) {
-        int[] testArray = {0,1,2,3,0,1,5,3,0};
-        shiftZeroes(testArray);
+        int[] testArray = {0,1,0,1,0,1,0,1};
+        shiftZeroesSecondWay(testArray);
         for (int i = 0; i < testArray.length; i++) {
             System.out.println(testArray[i]);
         }
@@ -27,4 +27,32 @@ public class ShiftZeroes {
             counter++;
         }
     }
+
+    public static void shiftZeroesSecondWay(int[] arr) {
+        int pt1 = 0;
+        int pt0 = arr.length - 1;
+
+        while (pt1 < pt0) {
+
+            if (arr[pt1] == 1) {
+                pt1++;
+            }
+
+            if (arr[pt0] == 0) {
+                pt0--;
+            }
+
+            if (pt1 > pt0) {
+                break;
+            }
+
+            if (arr[pt1] != 1 && arr[pt0] != 0) {
+
+                arr[pt1] = 1;
+                arr[pt0] = 0;
+            }
+
+        }
+    }
+
 }
