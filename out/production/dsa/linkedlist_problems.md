@@ -19,7 +19,7 @@ Tasks to complete
 Tasks to complete
 
 1. Remove duplicate from sorted Linked list [Completed].
-2. Reverse a linked list in group of size k [Completed | Tricky].
+2. Reverse a linked list in group of size k [Revise][Completed | Tricky | Needs recursion].
 3. Detect loop in linked list.
      Method1. N square solution.
      Method2. Change definition of Linked list.
@@ -35,7 +35,7 @@ Tasks to complete
 2. Segregate even and odd nodes in Linked list. [Important][Hint: Use 4 refs][Completed]
 
 ### 3-02-2024
-1. Find intersection of two linked list.[Important][Hint: Use simple maths][completed]
+1. Find intersection of two linked list.[Important][Hint: Use simple maths | Count both the LL Nodes, find diff and think about leading and trailing node concept][completed]
 2. Pairwise swap nodes of linked list. [Important][Hint set start node as third node and treat previous two nodes as swapped] [T1][T2][Completed]
 3. Clone a linked list with random pointer. [Important]
      Method1. Using Map.
